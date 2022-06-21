@@ -84,7 +84,7 @@ if __name__ == "__main__":
                 plt.gca().set_aspect('equal', adjustable='box')
                 plt.plot(Xinit, Yinit, color="mediumblue", label="Fastest trajectory")
                 plt.plot(xPos, yPos, marker="o", markersize=5, markeredgecolor="green", markerfacecolor="cyan")
-                plt.savefig(fname="optimized")
+                # plt.savefig(fname="optimized")
                 plt.show()
                 
             else:
