@@ -207,8 +207,8 @@ if __name__ == "__main__":
         """
         timer = time.time()
         v, a = VChange_binary.aim(target_slope, slope_error, vMin, vMax, upper, xPos, yPos, launcher_height, Vh, Av, Ah, Cv, Ch, m, g, p)
-        print(f"Algorithm 3 (binary) elapsed time: {time.time() - timer} s")
-        print(f"Algorithm 3 error: {abs(Initial_angle.trajectory(a, xPos, v, Vh, m, g, p, Av, Ah, Cv, Ch, launcher_height) - yPos)}")
+        print(f"Algorithm 2 (binary) elapsed time: {time.time() - timer} s")
+        print(f"Algorithm 2 error: {abs(Initial_angle.trajectory(a, xPos, v, Vh, m, g, p, Av, Ah, Cv, Ch, launcher_height) - yPos)}")
 
 
         # graphing
