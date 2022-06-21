@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
 
     xPos = 4 # distance to the goal
-    yPos = 0 # height of the goal
+    yPos = 0.76835 # height of the goal
     launcher_height = 0.3 # height of the launcher
     v = 10.8 # eject velocity
     Vh = 0 # launcher horizontal velocity
